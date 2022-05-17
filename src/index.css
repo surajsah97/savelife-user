@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.grid_container{
+    display: grid;
+    grid-template-areas: 'header' 'main';
+    grid-template-columns: 100%;
+    grid-template-rows: 8vh 1fr;
+    height: 100%;
+    width: 100%;
+  }
+  header{
+    grid-area: header;
+    background-color:white;
+    position: fixed;
+    width: 100%;
+    height:8vh;
+    border-bottom: 1px gainsboro solid;
+    z-index: 1;
+  }
+  main{
+    grid-area: main;
+    height: 100vh;
+    width: 1fr;
+  }
+  .loc{
+      background-color:whitesmoke;
+      border-radius: 5px;
+      padding: 5px;
+      margin: 10px;
+  }
+  .listItem{
+      display: block;
+    
+  }
+  .list{
+      float: left;
+      margin-left: 0;
+
+  }
+ 
