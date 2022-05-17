@@ -93,7 +93,7 @@ const EditForm04 = ({setname}) => {
                 <td>
                   <div className="d-flex">
       <div className="" style={{fontSize:"80%"}}>
-                     vehicle {el+1}
+                      {el+1}
                     </div>
                   </div>
                 </td>
