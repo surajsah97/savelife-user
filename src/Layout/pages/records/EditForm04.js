@@ -69,7 +69,7 @@ const EditForm04 = ({setname}) => {
         <tr>
           {/* <th>#</th> */}
           <th style={{fontSize:"70%"}}>
-            vehicle number
+            Event number
           </th>
           <th style={{fontSize:"70%"}}>Case Owner</th>
           <th style={{fontSize:"70%"}}>Variable A</th>
